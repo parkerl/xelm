@@ -13,7 +13,7 @@ tests =
     [ test
         "sentence empty"
         (assertEqual
-          False
+          True
           (isPangram "")
         )
     , test

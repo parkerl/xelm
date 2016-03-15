@@ -19,7 +19,7 @@ tests =
     , test
         "detects simple anagram"
         (assertEqual
-          [ "tan" ]
+          [ "adksfjaksldfjasjdkf" ]
           (detect "ant" [ "tan", "stand", "at" ])
         )
     , test
